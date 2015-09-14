@@ -20,3 +20,4 @@ grunt.initConfig({
   // Default tasks.
   grunt.registerTask('default', ['critical']);
 };
+
