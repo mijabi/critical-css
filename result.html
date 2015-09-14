@@ -30,6 +30,9 @@ p {
 .firstview {
   color: #f00;
 }
+.firstview2 {
+  color: #0f0;
+}
 </style>
 <script>
 (function(u){function loadCSS(e,t,n){"use strict";function r(){for(var t,i=0;i<d.length;i++)d[i].href&&d[i].href.indexOf(e)>-1&&(t=!0);t?o.media=n||"all":setTimeout(r)}var o=window.document.createElement("link"),i=t||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",i.parentNode.insertBefore(o,i),r(),o}for(var i in u){loadCSS(u[i]);}}(['css/normalize.css','css/hoge.css']));
@@ -43,7 +46,7 @@ p {
 </head>
 <body>
   <h1>critical css</h1>
-  <p><span class="firstview">text</span> <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br></p>
+  <p><span class="firstview">text</span> <br><span class="firstview2">text</span> <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br></p>
   <section>
     <h2>h2</h2>
     <p>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br></p>
@@ -56,13 +59,13 @@ p {
       <p>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br></p>
     </h3></section>
     <section>
-      <h3>h3
+      <h3>h3</h3>
       <p>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br></p>
-    </h3></section>
+    </section>
     <section>
-      <h3>h3
+      <h3>h3</h3>
       <p>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br>text <br><span class="lastview">text</span> <br></p>
-    </h3></section>
+    </section>
 
   </section>
 </body>
