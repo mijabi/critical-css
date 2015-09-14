@@ -10,3 +10,4 @@ wtf (well that's fantastic !)
 ### 参考
 
 [Smashing Magazine](http://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+[grunt-critical](https://github.com/bezoerb/grunt-critical)
