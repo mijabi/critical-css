@@ -1,4 +1,6 @@
-# critical-css
+# grunt-critical
+
+Google Page Speed Insights でも指摘される、1st view 領域の描画遅延や再描画はパフォーマンス上良くない、ユーザストレスにも成り得るとされており、それらを改善する。
 
 元になるファイル（index.html）と、
 「inline css と 外部 css ファイルを読み込む処理を書き込んで別名で生成」するファイル（result.html）を指定すると、
